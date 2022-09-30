@@ -5,6 +5,7 @@ import { isPlaying, toggleIsPlaying } from 'store/slidesSlice'
 import { Navigation, StyledHeader, SlideshowButton } from './Header.styles'
 import Logo from 'components/atoms/Logo'
 import { pageAnimation } from 'utils/animations'
+import Navbar from '../../atoms/navbar'
 
 const Header = (): JSX.Element => {
   const dispatch = useDispatch()
@@ -23,12 +24,16 @@ const Header = (): JSX.Element => {
       initial="hide"
       animate="show"
     >
-      <Navigation>
-        <Logo />
-        <SlideshowButton onClick={handleClick}>
-          {isSlideshowPlaying ? 'Stop Slideshow' : 'Start Slideshow'}
-        </SlideshowButton>
-      </Navigation>
+      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {/*// @ts-ignore*/}
+      <Navbar />
+      {/*    {isSlideshowPlaying ? 'Stop Slideshow' : 'Start Slideshow'}*/}
+      {/*<Navigation>*/}
+      {/*  <Logo />*/}
+      {/*  <SlideshowButton onClick={handleClick}>*/}
+      {/*    {isSlideshowPlaying ? 'Stop Slideshow' : 'Start Slideshow'}*/}
+      {/*  </SlideshowButton>*/}
+      {/*</Navigation>*/}
     </StyledHeader>
   )
 }

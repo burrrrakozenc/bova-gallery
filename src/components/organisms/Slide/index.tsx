@@ -56,16 +56,16 @@ const Slide = (): JSX.Element => {
               />
               <img src={current.images.hero.small} alt="" />
             </picture>
-            <Caption>
-              <h1>{current.name}</h1>
-              <p>{current.artist.name}</p>
-              <ArtistImage>
-                <img src={current.artist.image} alt="" />
-              </ArtistImage>
-            </Caption>
-            <ArtistImageDesktop>
-              <img src={current.artist.image} alt="" />
-            </ArtistImageDesktop>
+            {/*<Caption>*/}
+            {/*<h1>{current.name}</h1>*/}
+            {/*<p>{current.artist.name}</p>*/}
+            {/*<ArtistImage>*/}
+            {/*  <img src={current.artist.image} alt="" />*/}
+            {/*</ArtistImage>*/}
+            {/*</Caption>*/}
+            {/*<ArtistImageDesktop>*/}
+            {/*  <img src={current.artist.image} alt="" />*/}
+            {/*</ArtistImageDesktop>*/}
             <Button onClick={() => dispatch(openLightBox())}>
               <IconView />
               <span>View image</span>

@@ -6,6 +6,8 @@ import Gallery from 'pages/Gallery'
 import Slideshow from 'pages/Slideshow'
 import Header from 'components/organisms/Header/'
 import LightBox from 'components/organisms/Lightbox'
+import './assets/css/main.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App(): JSX.Element {
   return (

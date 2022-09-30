@@ -39,6 +39,7 @@ export const GlobalStyles = createGlobalStyle`
 
   /* Set core body defaults */
   body {
+    margin-top: 5rem;
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bova-new/galeri/static/css/main.11be2782.chunk.css",
+    "main.js": "/bova-new/galeri/static/js/main.6020d3d8.chunk.js",
+    "main.js.map": "/bova-new/galeri/static/js/main.6020d3d8.chunk.js.map",
+    "runtime-main.js": "/bova-new/galeri/static/js/runtime-main.bbe5f72f.js",
+    "runtime-main.js.map": "/bova-new/galeri/static/js/runtime-main.bbe5f72f.js.map",
+    "static/css/2.cbedb215.chunk.css": "/bova-new/galeri/static/css/2.cbedb215.chunk.css",
+    "static/js/2.35edf7d4.chunk.js": "/bova-new/galeri/static/js/2.35edf7d4.chunk.js",
+    "static/js/2.35edf7d4.chunk.js.map": "/bova-new/galeri/static/js/2.35edf7d4.chunk.js.map",
+    "index.html": "/bova-new/galeri/index.html",
+    "static/css/2.cbedb215.chunk.css.map": "/bova-new/galeri/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.11be2782.chunk.css.map": "/bova-new/galeri/static/css/main.11be2782.chunk.css.map",
+    "static/js/2.35edf7d4.chunk.js.LICENSE.txt": "/bova-new/galeri/static/js/2.35edf7d4.chunk.js.LICENSE.txt",
+    "static/media/LOGO_W.be9f6239.png": "/bova-new/galeri/static/media/LOGO_W.be9f6239.png",
+    "static/media/icon-back-button.645d6eb5.svg": "/bova-new/galeri/static/media/icon-back-button.645d6eb5.svg",
+    "static/media/icon-next-button.c138db05.svg": "/bova-new/galeri/static/media/icon-next-button.c138db05.svg",
+    "static/media/icon-view-image.5d93085b.svg": "/bova-new/galeri/static/media/icon-view-image.5d93085b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbe5f72f.js",
+    "static/css/2.cbedb215.chunk.css",
+    "static/js/2.35edf7d4.chunk.js",
+    "static/css/main.11be2782.chunk.css",
+    "static/js/main.6020d3d8.chunk.js"
+  ]
+}
